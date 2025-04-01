@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Asap } from "next/font/google";
 import "./globals.css";
+import { Footer, Header } from "@/components";
 
 const asap = Asap({
   subsets: ['latin'],
@@ -19,11 +20,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={asap.className}>
-        <header>header</header>
+        <Header />
         <main>
           {children}
         </main>
-        <footer>footer</footer>
+        <Footer />
       </body>
     </html>
   );

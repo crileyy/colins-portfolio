@@ -1,0 +1,35 @@
+.project-card-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  position: relative;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.chatbot-hover-image {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.text-wrapper {
+  margin-top: 3rem;
+}
+
+.title-link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.details {
+  margin-top: 1rem;
+}

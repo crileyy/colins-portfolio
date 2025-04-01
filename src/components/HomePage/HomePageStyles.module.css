@@ -1,0 +1,17 @@
+.front-hill {
+  width: 100%;
+  height: 400px;
+  background: radial-gradient(
+      circle at 100% 120%,
+      blue 0%,
+      blue 49.99%,
+      transparent 50%,
+      transparent 100%
+    ), radial-gradient(
+      circle at 20% 200%,
+      darkblue 0%,
+      darkblue 49.99%,
+      transparent 50%,
+      transparent 100%
+    );
+}

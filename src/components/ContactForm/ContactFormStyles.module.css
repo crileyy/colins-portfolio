@@ -1,0 +1,26 @@
+.form-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    'name email'
+    'message message'
+    'submit submit';
+  place-content: center;
+  padding: 0 30%;
+}
+
+.name-wrapper {
+  grid-area: name;
+}
+
+.email-wrapper {
+  grid-area: email;
+}
+
+.message-wrapper {
+  grid-area: message;
+}
+
+.submit-wrapper {
+  grid-area: submit;
+}
