@@ -3,10 +3,10 @@ import styles from './FooterStyles.module.css';
 
 export const Footer = () => {
   return (
-    <div className={styles['footer-wrapper']}>
+    <footer className={styles['footer-wrapper']}>
       <Link href="/">GitHub</Link>
       <Link href="/">LinkedIn</Link>
       <Link href="/">Email</Link>
-    </div>
+    </footer>
   );
 };

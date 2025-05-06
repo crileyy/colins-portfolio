@@ -15,7 +15,7 @@ export const MePicture = () => {
       <div className={styles['picture-container']} onClick={() => setPauseGif(!pauseGif)}>
         {pauseGif ?
           <Image className={styles['me-picture']} src={mePic} alt="Picture of Colin Riley" /> :
-          <Image className={styles['me-picture']} src={meGif} alt="Picture of Colin Riley" />
+          <Image unoptimized className={styles['me-picture']} src={meGif} alt="Picture of Colin Riley" />
         }
         <div className={styles['pause-wrapper']}>
           {pauseGif ?

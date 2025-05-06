@@ -1,11 +1,10 @@
 .about-me-wrapper {
-  margin: 48px auto;
+  margin: 0px auto;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 96px;
   max-width: 1296px;
-  margin: 50px auto;
-  padding: 0 48px;
+  padding: 48px;
 }
 
 .about-me-text-container {

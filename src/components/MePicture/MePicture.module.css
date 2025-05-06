@@ -24,6 +24,7 @@
   padding: 16px;
   background-color: hsl(219deg, 91.8%, 85.7%);
   animation: fade-in 1000ms backwards;
+  height: fit-content;
 }
 
 .picture-container {
