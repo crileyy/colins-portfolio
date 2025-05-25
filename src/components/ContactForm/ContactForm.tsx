@@ -23,6 +23,7 @@ export const ContactForm = () => {
   //   .then(res => { console.log(res) });
   // }
 
+  // debounce submit button if possible
   const [state, formAction] = useActionState(sendEmail, null);
 
   return (

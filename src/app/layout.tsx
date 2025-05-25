@@ -21,7 +21,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={asap.className}>
         <Header />
-        <main>
+        <main style={{ height: 'auto' }}>
           {children}
         </main>
         <Footer />
