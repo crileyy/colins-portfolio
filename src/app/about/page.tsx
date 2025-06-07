@@ -30,11 +30,16 @@ export default function About() {
           were paid and required working 40 hours a week. I like to think of co-op as in between an internship and full time experience. While
           on a co-op, I'm there long enough to take on more responsibilities than an intern, but I'm not full time. As a result of the co-op
           program, my work experience as a software engineer started during my second year of college when I got my first co-op at Intuit in
-          San Diego. Read more below to learn about my full time, co-op, and internship experiences.`}
+          San Diego. Read more below to learn about my full time, co-op, and internship experiences. I wrote blurbs for these instead of the bullet
+          points you can find on my résumé.`}
         </p>
         <h3>Full Time</h3>
         <h4>Disney+</h4>
         <h4>ASICS Digital</h4>
+        <p>
+          {`I was at ASICS Digital for 4 years, from June 2021 - June 2025. I was originally a co-op at ASICS Digital, on the OneASICS team and I
+          ended up rejoining the same team after graduation in May 2021. I started as a Frontend Engineer, some of my first projects included`}
+        </p>
         <h3>Co-ops and Internships</h3>
         <h4>Spare-it</h4>
         <h4>Meta</h4>
